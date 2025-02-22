@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .triangle {
+        width: 0;
+        height: 0;
+        border: 100px solid;
+        border-color: red red transparent transparent;
+      }
+      .circle {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50px 50px 0 0;
+      }
+      .ellipse {
+        width: 150px;
+        height: 50px;
+        border-radius: 75px/25px;
+        background-color: red;
+      }
+      .sector {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 100px 0 0 0;
+      }
+
+      .container {
+        width: 100%;
+        float: left;
+      }
+      .center {
+        background-color: red;
+        height: 200px;
+        margin: 0 200px;
+      }
+      .left {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        float: left;
+        margin-left: -100%;
+      }
+      .right {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        float: left;
+        margin-left: -200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 如何画一个三角形 -->
+    <!-- <div class="triangle"></div> -->
+    <!-- 画一个半圆 -->
+    <!-- <div class="circle"></div> -->
+    <!-- 画一个椭圆 -->
+    <!-- <div class="ellipse"></div> -->
+    <!-- 画一个扇形 -->
+    <!-- <div class="sector"></div> -->
+    <!-- 三栏布局  -->
+    <!-- .layout {
+        position: relative;
+      }
+      .left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+
+      .right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      }
+      .center {
+        position: absolute;
+        height: 200px;
+        left: 200px;
+        right: 200px;
+        background: lightgreen;
+      } -->
+
+    <!-- .left {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        float: left;
+      }
+      .right {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        float: right;
+      }
+      .center {
+        height: 200px;
+        background-color: lightgreen;
+        margin: 0 200px;
+      } -->
+
+    <!-- 圣杯布局 -->
+    <!-- .layout {
+        padding: 0 200px;
+      }
+      .center {
+        float: left;
+        width: 100%;
+        height: 200px;
+        background-color: red;
+      }
+      .left {
+        position: relative;
+        left: -200px;
+        width: 200px;
+        height: 200px;
+        float: left;
+        background-color: blue;
+        margin-left: -100%;
+      }
+      .right {
+        position: relative;
+        right: -200px;
+        width: 200px;
+        height: 200px;
+        float: left;
+        background-color: green;
+        margin-left: -200px;
+      } -->
+    <!-- <div class="layout">
+      <div class="container">
+        <div class="center"></div>
+      </div>
+
+      <div class="left"></div>
+      <div class="right"></div>
+    </div> -->
+    <!-- <script src="./千分符.js"></script>
+    <script src="./对象扁平化.js"></script>
+    <script src="./dom2json.js"></script> -->
+    <script src="./设计一个方法提取对象中所有value大于2的键值对并返回最新的对象.js"></script>
+  </body>
+</html>
